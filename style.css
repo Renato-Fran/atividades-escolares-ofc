@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #212121, #000);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00ffc8;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.vsl {
+    width: 100%;
+    max-width: 640px;
+    height: 360px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #00ffc8;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #00d9ad;
+}
+
+.btn-outline {
+    border: 2px solid #00ffc8;
+    color: #00ffc8;
+}
+
+.btn-outline:hover {
+    background-color: #00ffc8;
+    color: #000;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 0 10px #00ffc8;
+    text-align: center;
+}
+
+.card.destaque {
+    border: 2px solid #00ffc8;
+    background: #121212;
+}
+
+footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
